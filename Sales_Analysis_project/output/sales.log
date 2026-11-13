@@ -1,0 +1,57 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Sun Nov 1 12:08:10 2026
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+
+Control File:   sales.ctl
+Data File:      cleaned_sales_data.csv
+  Bad File:     cleaned_sales_data.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SALES_ANALYSIS, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ORDER_ID                            FIRST     *   ,  O(") CHARACTER            
+ORDER_DATE                           NEXT     *   ,  O(") DATE YYYY-MM-DD      
+PRODUCT                              NEXT     *   ,  O(") CHARACTER            
+CATEGORY                             NEXT     *   ,  O(") CHARACTER            
+CITY                                 NEXT     *   ,  O(") CHARACTER            
+QUANTITY                             NEXT     *   ,  O(") CHARACTER            
+PRICE                                NEXT     *   ,  O(") CHARACTER            
+REVENUE                              NEXT     *   ,  O(") CHARACTER            
+MONTH                                NEXT     *   ,  O(") CHARACTER            
+
+
+Table SALES_ANALYSIS:
+  12 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 148608 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:            12
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Sun Nov 01 12:08:10 2026
+Run ended on Sun Nov 01 12:08:15 2026
+
+Elapsed time was:     00:00:04.68
+CPU time was:         00:00:00.17

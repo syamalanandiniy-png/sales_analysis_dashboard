@@ -1,0 +1,13 @@
+Order_ID,Date,Product,Category,City,Quantity,Price,Revenue,Month
+101,2026-01-05,Laptop,Electronics,Hyderabad,2,45000,90000,January
+102,2026-01-08,Mouse,Accessories,Vijayawada,5,500,2500,January
+103,2026-01-10,Keyboard,Accessories,Chennai,3,1200,3600,January
+104,2026-01-15,Mobile,Electronics,Hyderabad,2,18000,36000,January
+105,2026-02-02,Laptop,Electronics,Chennai,1,45000,45000,February
+106,2026-02-05,Mouse,Accessories,Hyderabad,10,500,5000,February
+107,2026-02-12,Mobile,Electronics,Vijayawada,3,18000,54000,February
+108,2026-02-18,Keyboard,Accessories,Chennai,4,1200,4800,February
+109,2026-03-01,Laptop,Electronics,Vijayawada,2,45000,90000,March
+110,2026-03-05,Mobile,Electronics,Chennai,1,18000,18000,March
+111,2026-03-10,Mouse,Accessories,Hyderabad,8,500,4000,March
+112,2026-03-15,Keyboard,Accessories,Vijayawada,5,1200,6000,March
